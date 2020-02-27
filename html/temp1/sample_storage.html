@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>sample_storage</title>
+
+  <style>
+    .tipText {
+      color: seagreen;
+    }
+  </style>
+</head>
+
+<body>
+
+</body>
+<div>
+  <p style="color: red">localStorage</p>
+  <p class="tipText">刷新页面会看到计数器在增长。</p>
+  <p class="tipText">请关闭浏览器窗口，然后再试一次，计数器会继续计数。</p>
+
+  <script>
+    //localStorage
+    // localStorage.lastName = "Sam";
+    // document.write("name : " + localStorage.lastName);
+
+    if (localStorage.visitCount) {
+      localStorage.visitCount = Number(localStorage.visitCount) + 1;
+    } else {
+      localStorage.visitCount = 1;
+    }
+    document.write("Visits: " + localStorage.visitCount + " time(s).")
+
+  </script>
+</div>
+<br>
+<div>
+  <p style="color: red">sessionStorage</p>
+  <p class="tipText">刷新页面会看到计数器在增长。</p>
+  <p class="tipText">请关闭浏览器窗口，然后再试一次，计数器已经重置了。</p>
+
+  <script>
+    //sessionStorage
+    if (sessionStorage.visCount) {
+      sessionStorage.visCount = Number(sessionStorage.visCount) + 1;
+    } else {
+      sessionStorage.visCount = 1;
+    }
+    document.write("Visits: " + sessionStorage.visCount + " time(s) this session.")
+
+  </script>
+</div>
+</html>
