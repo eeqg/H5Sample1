@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>sample_tag3</title>
+</head>
+<body onload="write_sum()">
+<form action="../temp1/sample_tag2.html" method="get" name="sumform">
+  <output name="sum"></output>
+</form>
+
+<script>
+  document.write("Hello word!!")
+</script>
+</body>
+
+<script>
+  function write_sum() {
+    x = 3;
+    y = 5;
+    document.forms["sumform"]["sum"].value = x + y;
+  }
+</script>
+</html>

@@ -1,10 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Sample_tag2</title>
+  <meta charset="UTF-8">
+  <title>Sample_tag2</title>
+  <!--  <base href="https://img.hrk.com.cn/">-->
+  <link rel="stylesheet" href="../../css/my_first.css">
+  <style>
+    /*div {*/
+    /*  padding: 8px;*/
+    /*  margin-top: 8px;*/
+    /*  border: 1px solid #ff3333;*/
+    /*  background: #c3c3c3;*/
+    /*}*/
+    .divCustom {
+      padding: 8px;
+      margin-top: 8px;
+      border: 1px solid #ff3333;
+      background: #c3c3c3;
+    }
+  </style>
 </head>
 <body>
+
+<header>
+  <h1>Welcome to my homepage</h1>
+  <p>My name is Donald Duck</p>
+</header>
+
+<hr/>
+<nav>
+  <a href="../temp1/sample_canvas.html">Home</a>
+  <a href="../temp1/sample_tag.html">Previous</a>
+  <a href="/html5/html5_noscript.asp">Next</a>
+</nav>
+
+<a href="/H5Sample1/html/temp1/sample_canvas.html">
+  <img src="https://img.hrk.com.cn/989441.png" alt=""/>
+</a>
+
+<div class="divCustom">
+  The <abbr title="People's Republic of China">PRC</abbr> was founded in 1949.
+  <br>
+  <img src="../../img/image3.jpg" height="100" width="150">
+</div>
+
+<div class="divBase">
+  <address>
+    Written by W3School.com.cn<br/>
+    <a href="mailto:us@example.org">Email us</a><br/>
+    Address: Box 564, Disneyland<br/>
+    Phone: +12 34 56 78
+  </address>
+</div>
+
+<div class="divBase">
+  <p>请点击图像上的星球，把它们放大。</p>
+  <img src="../../img/image3.jpg" border="0" usemap="#planetmap" alt="Planets"/>
+  <map name="planetmap" id="planetmap">
+    <area
+      shape="circle"
+      coords="180,139,55"
+      href="../temp1/sample_canvas.html"
+      target="_blank"
+      alt="Venus"/>
+    <area
+      shape="circle"
+      coords="329,131,60"
+      href="/H5Sample1/html/temp1/sample_storage.html"
+      target="_blank"
+      alt="Mercury"/>
+    <area
+      shape="rect"
+      coords="0,0,110,260"
+      href="/H5Sample1/html/temp1/sample_tag.html"
+      target="_blank"
+      alt="Sun"/>
+  </map>
+  <p><b>注释：</b>img 元素中的 "usemap" 属性引用 map 元素中的 "id" 或 "name" 属性（根据浏 览器），所以我们同时向 map 元素添加了 "id" 和 "name" 属性。</p>
+</div>
+
+<div class="divBase">
+  <article>
+    <a href="http://www.apple.com">Safari 5 released</a><br/>
+    7 Jun 2010. Just after the announcement of the new iPhone 4 at WWDC,
+    Apple announced the release of Safari 5 for Windows and Mac......
+  </article>
+</div>
+
+<div class="divBase">
+  <p>Me and my family visited The Epcot center this summer.</p>
+  <aside>
+    <h4>Epcot Center</h4>
+    The Epcot Center is a theme park in Disney World, Florida.
+  </aside>
+
+  <br>
+  <bdo dir="rtl">Here is some text</bdo>
+
+  <br>
+  <blockquote>帝国主义都是<span style="color:#00ff00;">纸老虎</span> ...</blockquote>
+</div>
+
+<div class="divBase">
+  <table>
+    <caption>This is a caption, 定义表格标题</caption>
+    <tr>
+      <td>Cell 1</td>
+      <td>Cell 2</td>
+      <td>cell 3</td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>b</td>
+    </tr>
+  </table>
+</div>
+
+<div class="divBase">
+  <dl>
+    <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>White cold drink</dd>
+  </dl>
+
+  <br>
+  <!-- 中划线 -->
+  <p>a dozen is
+    <del>21</del>
+    12 pieces
+  </p>
+  <p>一打有
+    <del>二十</del>
+    <ins>十二</ins>
+    件。
+  </p>
+
+  <br>
+  <!-- 展开详情 -->
+  <details title="title">This document was written in 2010.</details>
+
+  <br>
+  <!-- 嵌入的内容，比如插件 -->
+  <embed src="/i/helloworld.swf"/>
+
+  <br>
+  <!-- 标签 -->
+  <figure>
+    <figcaption>PRC</figcaption>
+    <p>The People's Republic of China was born in 1949...</p>
+  </figure>
+
+  <b>This text is bold</b>
+
+  <br/>
+  <strong>This text is strong</strong>
+
+  <br/>
+  <big>This text is big</big>
+
+  <br/>
+  <em>This text is emphasized</em>
+
+  <br/>
+  <i>This text is italic</i>
+
+  <br/>
+  <small>This text is small</small>
+
+  <br>
+  This text contains<sub>subscript</sub>
+
+  <br/>
+  This text contains<sup>superscript</sup>
+
+  <br>
+  <p>Do not forget to buy
+    <mark>milk</mark>
+    today.
+  </p>
+
+  <br>
+  <pre>
+    这是
+    预格式文本。
+    它保留了      空格
+    和换行。
+</pre>
+
+  <p>pre 标签很适合显示计算机代码：</p>
+
+  <pre>
+    for i = 1 to 10
+      print i
+      next i
+</pre>
+
+  <br>
+  <p>WWF's goal is to:
+    <q cite="http://www.wwf.org">
+      build a future where people live in harmony with nature
+    </q> we hope they succeed.</p>
+</div>
+
+<div class="divBase">
+  <fieldset>
+    <legend>健康信息：</legend>
+    <form>
+      <label>身高：<input type="text"/></label>
+      <label>体重：<input type="text"/></label>
+    </form>
+  </fieldset>
+  <p>如果表单周围没有边框，说明您的浏览器太老了。</p>
+
+  <br>
+  <hgroup>
+    <h1>Welcome to my WWF</h1>
+    <h2>For a living planet</h2>
+  </hgroup>
+</div>
+
+<div class="divBase">
+  <form>
+    我喜欢自行车：<input type="checkbox" name="Bike"> <br/>
+    我喜欢汽车： <input type="checkbox" name="Car">
+  </form>
+  <br>
+  <form name="input" action="/html/html_form_action.asp" method="get">
+    男性： <input type="radio" checked="checked" name="Sex" value="male"/> <br/>
+    女性： <input type="radio" name="Sex" value="female"/>
+    <br>
+    <input type="submit" value="Submit"/><!-- http://localhost:63343/html/html_form_action.asp?Sex=male -->
+    <br>
+    <p>如果您点击 "Submit" 按钮，您将把输入传送到名为 html_form_action.asp 的新页面。</p>
+  </form>
+</div>
+
+<div class="divBase">
+  <p>请点击文本标记之一，就可以触发相关控件：</p>
+
+  <form>
+    <label for="male">Male</label>
+    <input type="radio" name="sex" id="male"/>
+    <br/>
+    <label for="female">Female</label>
+    <input type="radio" name="sex" id="female"/>
+  </form>
+</div>
+
+<div class="divCustom">
+  <form>
+    <select name="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+  </form>
+</div>
+
+<div class="divBase">
+  <object id="Slider1" width="100" height="50">
+    <param name="BorderStyle" value="1"/>
+    <param name="MousePointer" value="0"/>
+    <param name="Enabled" value="1"/>
+    <param name="Min" value="0"/>
+    <param name="Max" value="10"/>
+  </object>
+</div>
+
 
 </body>
 </html>
