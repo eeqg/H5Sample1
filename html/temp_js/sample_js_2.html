@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    div {
+
+    }
+
+    #selectFruit {
+      padding: 16px;
+      background: #f3f3f3;
+      border: 1px solid #FF0099;
+      height: auto;
+      width: 180px;
+    }
+
+    #selectedInfo {
+      color: #ff3333;
+      height: 1rem;
+      font-size: 1rem;
+    }
+
+    #fruitBtn {
+      margin-right: 1rem;
+    }
+  </style>
+</head>
+<body>
+<div id="selectFruit">
+  <label><input id="fruit1" type="radio" name="fruit" value="apple" checked>苹果</label>
+  <label><input id="fruit2" type="radio" name="fruit" value="pear">梨子</label>
+  <label><input id="fruit3" type="radio" name="fruit" value="orange">橘子</label>
+  <br><br>
+  <span id="selectedInfo"></span>
+  <input id="fruitBtn" type="button" value="确定">
+</div>
+
+
+<script>
+  window.onload = function () {
+    var fruitsList = document.getElementsByName("fruit");
+    var displaySelected = document.getElementById("selectedInfo");
+
+    for (var i = 0; i < fruitsList.length; i++) {
+      fruitsList[i].onchange = function () {
+        displaySelected.innerHTML = this.value;
+      }
+    }
+
+    document.getElementById("fruitBtn").onclick = function () {
+      for (var i = 0; i < fruitsList.length; i++) {
+        if (fruitsList[i].checked) {
+          alert(fruitsList[i].value)
+        }
+      }
+    };
+
+
+  }
+</script>
+</body>
+</html>

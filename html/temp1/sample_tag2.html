@@ -6,12 +6,16 @@
   <!--  <base href="https://img.hrk.com.cn/">-->
   <link rel="stylesheet" href="../../css/my_first.css">
   <style>
-    /*div {*/
-    /*  padding: 8px;*/
-    /*  margin-top: 8px;*/
-    /*  border: 1px solid #ff3333;*/
-    /*  background: #c3c3c3;*/
-    /*}*/
+    #testId {
+      color: #FF00FF;
+    }
+
+    div {
+      padding: 8px;
+      margin-top: 8px;
+      border: 1px solid #89ff67;
+    }
+
     .divCustom {
       padding: 8px;
       margin-top: 8px;
@@ -20,6 +24,7 @@
     }
   </style>
 </head>
+
 <body>
 
 <header>
@@ -54,7 +59,7 @@
 </div>
 
 <div class="divBase">
-  <p>请点击图像上的星球，把它们放大。</p>
+  <h1 id="testId">请点击图像上的星球，把它们放大。</h1>
   <img src="../../img/image3.jpg" border="0" usemap="#planetmap" alt="Planets"/>
   <map name="planetmap" id="planetmap">
     <area
@@ -267,6 +272,20 @@
     <param name="Min" value="0"/>
     <param name="Max" value="10"/>
   </object>
+</div>
+
+<div>
+  <p>
+    我们在每天早上
+    <time>9:00</time>
+    开始营业。
+  </p>
+
+  <p>
+    我在
+    <time datetime="2010-02-14">情人节</time>
+    有个约会。
+  </p>
 </div>
 
 

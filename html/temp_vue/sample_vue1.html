@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml"
+      xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>vue sample</title>
+
+  <!--  引入vue-->
+  <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!-- 生产环境版本，优化了尺寸和速度 -->
+  <!--  <script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+</head>
+<body>
+
+<div id="app1">
+  {{msg}}
+</div>
+
+<!--v-bind: 将这个元素节点的 title attribute 和 Vue 实例的 message 属性保持一致-->
+<div id="app-2">
+  <span v-bind:title="message">
+    鼠标悬停几秒钟查看此处动态绑定的提示信息！
+  </span>
+</div>
+
+<!--v-if 条件判断-->
+<div id="app-3">
+  <p v-if="seen">现在你看到我了</p>
+</div>
+
+<!--v-for 指令可以绑定数组的数据来渲染一个列表-->
+<div id="app-4">
+  <ol>
+    <li v-for="todo in studyList">
+      {{ todo.text }}
+    </li>
+  </ol>
+</div>
+
+<!--v-on 指令添加一个事件监听器-->
+<div id="app-5">
+  <p>{{message}}</p>
+  <button id="" v-on:click="reverseMessage">revers</button>
+</div>
+
+<!--v-model 指令，它能轻松实现表单输入和应用状态之间的双向绑定-->
+<div id="app-6">
+  <p>{{ message }}</p>
+  <input v-model="message">
+</div>
+</body>
+
+<script>
+  var app = new Vue({
+    el: '#app1',
+    data: {
+      msg: 'Hello Vue!'
+    }
+  });
+
+  var app2 = new Vue({
+    el: '#app-2',
+    data: {
+      message: '页面加载于 ' + new Date().toLocaleString()
+    }
+  });
+
+  var app3 = new Vue({
+    el: '#app-3',
+    data: {
+      seen: true
+    }
+  });
+
+  var app4 = new Vue({
+    el: '#app-4',
+    data: {
+      studyList: [
+        {text: '学习 JavaScript'},
+        {text: '学习 Vue'},
+        {text: '整个牛项目'}
+      ]
+    }
+  });
+
+  var app5 = new Vue({
+    el: '#app-5',
+    data: {
+      message: 'Hello Vue.js!'
+    },
+    methods: {
+      reverseMessage: function () {
+        this.message = this.message.split('').reverse().join('')
+      }
+    }
+  })
+
+  var app6 = new Vue({
+    el: '#app-6',
+    data: {
+      message: 'Hello Vue!'
+    }
+  })
+</script>
+
+</html>
