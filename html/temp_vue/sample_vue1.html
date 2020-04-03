@@ -3,6 +3,7 @@
       xmlns:v-on="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
   <title>vue sample</title>
 
   <!--  引入vue-->
@@ -10,11 +11,24 @@
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <!-- 生产环境版本，优化了尺寸和速度 -->
   <!--  <script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+
+  <style>
+    div {
+      margin-top: 10px;
+    }
+
+    #date1 {
+      color: #ff3333;
+      font-size: 0.6rem;
+    }
+  </style>
 </head>
 <body>
 
 <div id="app1">
-  {{msg}}
+  Title: {{title}}<br>
+  <span style="color: #999999; size: 16px">Sub: {{subTitle}}</span><br>
+  <span id="date1">Date: {{date}}</span>
 </div>
 
 <!--v-bind: 将这个元素节点的 title attribute 和 Vue 实例的 message 属性保持一致-->
@@ -49,14 +63,21 @@
   <p>{{ message }}</p>
   <input v-model="message">
 </div>
+
+<div id="app-7">
+  <span v-bind:style="styleObject">bind style</span>
+</div>
 </body>
 
 <script>
+  var data1 = {
+    title: 'Hello Vue!',
+    subTitle: 'subtitle,subtitle,subtitle',
+    date: "2020-03-24"
+  };
   var app = new Vue({
     el: '#app1',
-    data: {
-      msg: 'Hello Vue!'
-    }
+    data: data1
   });
 
   var app2 = new Vue({
@@ -94,14 +115,24 @@
         this.message = this.message.split('').reverse().join('')
       }
     }
-  })
+  });
 
   var app6 = new Vue({
     el: '#app-6',
     data: {
       message: 'Hello Vue!'
     }
-  })
+  });
+
+  var app7 = new Vue({
+    el: "#app-7",
+    data: {
+      styleObject:{
+        color: "red",
+        fontSize: "13px"
+      }
+    }
+  });
 </script>
 
 </html>

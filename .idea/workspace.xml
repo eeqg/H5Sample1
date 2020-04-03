@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01c488c8-1f18-43ca-95c5-5f58acf18caf" name="Default Changelist" comment="++update..">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/temp_js/sample_js_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/temp_js/sample_js_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/temp_vue/sample_vue1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/temp1/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/temp_jq/sample_jq_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/temp_jq/sample_jq_fade.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/temp_jq/sample_jq_slide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/temp_vue/sample_vue2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/temp1/jQuery_import.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/temp1/sample_tag2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/temp1/sample_tag2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/temp1/sample_canvas.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/temp_h5/sample_canvas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/temp1/sample_storage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/temp_h5/sample_storage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/temp1/sample_tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/temp_h5/sample_tag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/temp1/sample_tag2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/temp_h5/sample_tag2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/temp1/sample_tag3.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/temp_h5/sample_tag3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/temp_js/sample_js_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/temp_js/sample_js_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/temp_vue/sample_vue1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/temp_vue/sample_vue1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/temp1/script01.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/temp1/script01.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,28 +30,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/temp_js/sample_js_1.html">
+        <entry file="file://$PROJECT_DIR$/html/temp_jq/sample_jq_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            <state relative-caret-position="266">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/temp_js/sample_js_2.html">
+        <entry file="file://$PROJECT_DIR$/html/temp_jq/sample_jq_fade.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="342">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/temp_vue/sample_vue1.html">
+        <entry file="file://$PROJECT_DIR$/html/temp_jq/sample_jq_slide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="311">
+              <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -57,44 +70,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/temp1/sample_tag.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/temp1/sample_tag2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="21" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#blockquote#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/my_first.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="18" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -116,7 +99,12 @@
         <option value="$PROJECT_DIR$/js/temp1/script01.js" />
         <option value="$PROJECT_DIR$/html/temp_js/js_sample1.html" />
         <option value="$PROJECT_DIR$/html/temp_js/sample_js_2.html" />
+        <option value="$PROJECT_DIR$/html/temp_vue/sample_vue2.html" />
         <option value="$PROJECT_DIR$/html/temp_vue/sample_vue1.html" />
+        <option value="$PROJECT_DIR$/html/temp_jq/sample_jq_1.html" />
+        <option value="$PROJECT_DIR$/html/temp_jq/sample_jq_2.html" />
+        <option value="$PROJECT_DIR$/js/temp1/jQuery_import.js" />
+        <option value="$PROJECT_DIR$/html/temp_jq/sample_jq_slide.html" />
       </list>
     </option>
   </component>
@@ -142,6 +130,11 @@
             <path>
               <item name="H5Sample1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="D:\WP\source\H5\H5Sample1" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="H5Sample1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\WP\source\H5\H5Sample1" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -153,7 +146,13 @@
               <item name="H5Sample1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="D:\WP\source\H5\H5Sample1" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="html" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="temp1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="temp_h5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="H5Sample1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\WP\source\H5\H5Sample1" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="html" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="temp_jq" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="H5Sample1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -182,6 +181,12 @@
               <item name="D:\WP\source\H5\H5Sample1" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="temp1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="H5Sample1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\WP\source\H5\H5Sample1" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -241,7 +246,11 @@
       <workItem from="1584172208487" duration="3909000" />
       <workItem from="1584502263539" duration="1279000" />
       <workItem from="1584604958716" duration="2199000" />
-      <workItem from="1584784107019" duration="3169000" />
+      <workItem from="1584784107019" duration="3251000" />
+      <workItem from="1585016158047" duration="7928000" />
+      <workItem from="1585122766143" duration="2549000" />
+      <workItem from="1585815514839" duration="1534000" />
+      <workItem from="1585907838134" duration="1768000" />
     </task>
     <task id="LOCAL-00001" summary="++update..">
       <created>1582798291620</created>
@@ -257,11 +266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583233393319</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="++update..">
+      <created>1584787290697</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584787290698</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49285000" />
+    <option name="totallyTimeSpent" value="63146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -302,18 +318,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tile.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -350,7 +356,7 @@
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/temp1/sample_storage.html">
+    <entry file="file://$PROJECT_DIR$/html/temp_h5/sample_storage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
           <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
@@ -361,14 +367,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/temp1/sample_tag3.html">
+    <entry file="file://$PROJECT_DIR$/html/temp_h5/sample_tag3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/temp1/sample_canvas.html">
+    <entry file="file://$PROJECT_DIR$/html/temp_h5/sample_canvas.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
@@ -393,10 +399,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/temp_js/sample_js_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/temp_vue/sample_vue2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/temp_h5/sample_tag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/temp_h5/sample_tag2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#blockquote#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/my_first.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="18" selection-start-line="1" selection-start-column="2" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/temp_vue/sample_vue1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/temp_js/sample_js_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/temp_jq/sample_jq_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/temp_jq/sample_jq_fade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -407,41 +500,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/temp1/sample_tag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/js/temp1/jQuery_import.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/temp1/sample_tag2.html">
+    <entry file="file://$PROJECT_DIR$/html/temp_jq/sample_jq_slide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#blockquote#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/my_first.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/temp_js/sample_js_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/temp_vue/sample_vue1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="311">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
         </state>
       </provider>
     </entry>

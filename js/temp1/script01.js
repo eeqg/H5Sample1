@@ -5,6 +5,6 @@ function initAll() {
 }
 
 function redirectTo() {
-  window.location = "../../html/temp1/sample_canvas.html";
+  window.location = "../../html/temp_h5/sample_canvas.html";
   return false;
 }
